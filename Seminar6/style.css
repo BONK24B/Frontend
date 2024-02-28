@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    max-width: 1600px;
+    max-height: 75px;
+    margin: 0 auto;
+}
+
+header .header__content{
+    display: flex;
+    background-color: 222222;
+    width: 100%;
+    height: 75px;
+    gap: 859px;
+}
+
+header .header__content .left__side{
+    display: flex;
+    margin-left: 231px;
+    align-items: center;
+    gap: 41px;
+    padding-top: 18px;
+    max-height: 38px;
+    width: 111px;
+}
+
+
+header .header__content .right__side{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    max-height: 29px;
+    padding-top: 26px;
+    width: 159px;
+}
+
+.main__screen {
+    display: flex;
+    max-width: 1600px;
+    max-height: 764px;
+    background-color: F1E4E6;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main__screen .main__block__right{
+    display: flex;
+    max-width: 377px;
+    max-height: 93px;
+    align-items: center;
+    gap: 16px;
+}
+
+.main__screen .main__block__right .text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__screen .main__block__right .text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+}
+
+.main__screen .main__block__right .text p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    width: 377px;
+}
+
+.deals {
+    display: flex;
+    max-width: 470px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    gap: 30px;
+}
+
+.deals .row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.featured__items {
+    display: flex;
+    padding-top: 96px;
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.featured__items .sign{
+    font-size: 30px;
+    color: #222222;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.featured__items .sign2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #9F9F9F;
+}
+
+.featured__items .goods {
+    margin-top: 48px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.featured__items button {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    width: 212px;
+    height: 48px;
+    background-color: white;
+    border-color: #FF6A6A;
+    color: #FF6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
